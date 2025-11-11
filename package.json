@@ -1,6 +1,6 @@
 {
-  "name": "screeno-landing",
-  "homepage": "https://github.com/AlexandrLo/screeno-landing",
+  "name": "landing-page-qtm",
+  "homepage": ".",
   "scripts": {
     "start": "webpack serve",
     "build": "webpack",
