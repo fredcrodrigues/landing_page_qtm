@@ -1,0 +1,24 @@
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import NavBar from "components/NavBar";
+
+import Home from "pages/Home";
+import NotFound from "pages/NotFound";
+import WhatsAppButton from "components/ButtonFloat";
+
+export default function App() {
+  return (
+    <>
+    
+      <NavBar />
+      <Routes>
+        <Route path="*" element={<NotFound />} />
+        <Route path="/404" element={<NotFound />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <WhatsAppButton/>
+      
+     
+    </>
+  );
+}
