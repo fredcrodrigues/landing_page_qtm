@@ -64,7 +64,7 @@ function Clients() {
                   size="h1"
 
                   pb={{ base: "3rem", md: "6.5rem" }}
-                  textAlign={{ base: "start", md: "center" }}
+                  textAlign={{ base: "center", md: "center" }}
                 >
           Nosso propósito é cuidar
         </Heading>

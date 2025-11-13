@@ -37,7 +37,7 @@ function Hero() {
             textAlign={{ base: "center", md: "center", xl: "start" }}
             spacing="1rem"
           >
-            <VStack spacing="1rem">
+            <VStack spacing="2rem">
               <Heading as="h2" size="h2" color="white">
                 Saúde e bem estar na palma da sua mão
               </Heading>
